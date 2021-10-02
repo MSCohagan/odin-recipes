@@ -11,29 +11,72 @@
         <!--NavBar fixed to top-->
         <nav id="nav">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#title-card">Home</a></li>
+                <li><a href="#Rules">Rules</a></li>
+                <li><a href="#registration">Registration</a></li>
                 <li><a href="#">Recipie List</a></li>
                 <li><a href="#">About Us</a></li>
             </ul>
         </nav>
+        <div id="title-card">
+            <header id="main-header">Cohagan Cooking Challenge</header>       
+        </div>
         <!--Main page header-->
-        <header id="main-header">Cohagan Cooking Challenge</header>
-        <section>
+        <section id="Rules" class="Rules">
             <header id="section-header">Rules</header>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Ladies and gentlemen! Welcome to the official website of the annual Cohagan Cooking Challenge! This challenge will be taking place over the course of <strong>October 2021</strong> (8/1/21-8/31/21). Participants are welcome to come from anywhere, however the challenge will be held in Ajkl, Cerra. We have rented out a space in the Ajkl Performing Arts center for daily taste testing. Your dish will be ranked on a scale of 1-10. This score will be secret until the end of the month when all scores will be revealed to the general public. The best 3 dishes will be awarded with cash prizes amounting to 5,000 gobbledygooks, 1,000 gobbledygooks, and 500 gobbledygooks. 
+            </p>
+            <p>
+                Cash prizes will be presented to winners in person. If you are not present at the award ceremony on <strong>November 5th, 2021</strong> your prize will be given to the next highest scoring contestant. If extenuating circumstances barre you from attending (sickness, plague, the end of the world, etc.) please submit an email to cookingchallenge@fake.com. As always, we appreciate each and every one of our contestants. We hope to ensure your safety and joy by providing the following rules to all contestants, taste testers, and observers:
             </p>
             <ul>
                 <li>
-                    Rule 1
+                    Display any allergen information, GMO, vegan, vegetarian, or other dietary information that could be considered pertinent on your dishes presentation card. Taste testers will need this to ensure we have no allergen related accidents.
                 </li>
                 <li>
-                    Rule 2
+                    Respect all other contestants. Abusive language of any kind will not be tolerated. If you have an issue let the food do the talking.
                 </li>
                 <li>
-                    Rule 3
+                    Have fun! We hope this event will bring together a wide variety of people. If you're looking to learn how to cook, make friends, or just try some tasty dishes, make sure you're enjoying yourself!
                 </li>
             </ul>
+            <p>
+                The staff at Cohagan Cooking Challenge is always happy to answer any questions that you may have. If you need to report an incident, get help finding your booth, or check in on taste testing times please seek out any staff member. We'll get you situated. Please fill out the form below if you are going to be participating in the challenge. We'll also use this information to contact you if you win!
+            </p>
+        </section>
+        <section>
+            <div id="registration">
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName"><br>
+                    <label for="lastName">Last Lame:</label>
+                    <input type="text" id="lastName" name="lastName"><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone"><br>
+                    <p>
+                        Have you attended the Cohagan Cooking Challenge before?
+                    </p>
+                    <input type="radio" id="rYes" name="attended" value="Yes">
+                    <label for="rYes">Yes</label><br>
+                    <input type="radio" id="rNo" name="attended" value="No">
+                    <label for="rNo">No</label><br>
+                    <p>
+                        What category will you be competing in?
+                    </p>
+                    <input type="radio" id="dinner" name="event" value="Dinner">
+                    <label for="dinner">Dinner</label><br>
+                    <input type="radio" id="dessert" name="event" value="Dessert">
+                    <label for="dessert">Dessert</label><br>
+                    <p>
+                        Please inform us of any potential allergen or health risks you may have.
+                    </p>
+                    <textarea id="allergies" name="allergies" row="30" cols="30">Example: Peanuts, nuts, red dye, etc.</textarea><br>
+                    <input type="submit">
+                </form>
+            </div>
         </section>
     </body>
 </html>
